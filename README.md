@@ -1,0 +1,5 @@
+Instructions: start the solution.  The documentation is the first page that comes up.
+
+I've used the Quartz scheduler to handle concurrency/load/storing job information for retrieval etc.  So far as I can tell, it's handled it well with the base settings.  I'm using the basic set up for now because the defaults suit a project this size.  This should be scaled up when it isn't being run on a home computer for testing.  In addition, I used a basic HttpClient request to retrieve the website information as a string and return it to the user.
+
+This API could be a lot smarter.  There should be an easy way to target information on a particular page down to the htmltag with an easy way to traverse through the structure. To that end there should be a front-end that handles this as opposed to (or in addition to) people just hitting it for the information, giving the user greater control and visibility to their movements with the application.  There could also be smarter URL entry besides "send one that isn't blank".  For now, the project assumes that if you send valid text, that's what you meant to send, regardless of whether or not it's well-formed.

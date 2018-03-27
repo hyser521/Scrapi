@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eaze_API</name>
+    </assembly>
+    <members>
+        <member name="M:Eaze_API.Controllers.Eaze_APIController.GetJobStatus(System.String)">
+            <summary>
+            Returns the job status from the scheduler.
+            </summary>
+            <param name="id">job ID</param>
+            <returns>JSON object containing the status</returns>
+            <response code="200">A response message wrapped in JSON</response>
+            <response code="400">ID not found</response>
+            <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:Eaze_API.Controllers.Eaze_APIController.GetJobResults(System.String)">
+            <summary>
+            Returns the scraping result or error from attempting to scrape
+            </summary>
+            <param name="id">job ID</param>
+            <response code="200">A response message wrapped in JSON</response>
+            <response code="400">ID not found</response>
+        </member>
+        <member name="M:Eaze_API.Controllers.Eaze_APIController.PostJob(System.Collections.Generic.Dictionary{System.String,System.String})">
+             <summary>
+             Adds a job for the URL specified in the message body
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /api/eazeapi
+                 {
+                    "url": "https://wwww.google.com"
+                 }
+            
+             </remarks>
+             <param name="json">JSON-wrapped URL string</param>
+             <response code="201">JSON-wrapped ID string</response>
+             <response code="400">No URL in message</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="T:Eaze_API.models.ScopedSchedulerContext">
+            <summary>
+            Dependency injected class that handles scheduling and acts as the database.
+            Created using Quartz .NET package.
+            </summary>
+        </member>
+        <member name="M:Eaze_API.models.WebScraperJob.Execute(Quartz.IJobExecutionContext)">
+            <summary>
+            Uses HttpClient to scrape the contents of a website into a string, stored in the context of the job
+            </summary>
+            <param name="context"> Context of the batched off job</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

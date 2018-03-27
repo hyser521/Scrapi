@@ -1,0 +1,15 @@
+c:\users\eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Eaze_API.deps.json
+c:\users\eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Eaze_API.runtimeconfig.json
+c:\users\eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Eaze_API.runtimeconfig.dev.json
+c:\users\eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Eaze_API.dll
+c:\users\eric\source\repos\Eaze_API\Eaze_API\obj\Debug\netcoreapp2.0\Eaze_API.csprojResolveAssemblyReference.cache
+c:\users\eric\source\repos\Eaze_API\Eaze_API\obj\Debug\netcoreapp2.0\Eaze_API.csproj.CoreCompileInputs.cache
+c:\users\eric\source\repos\Eaze_API\Eaze_API\obj\Debug\netcoreapp2.0\Eaze_API.AssemblyInfoInputs.cache
+c:\users\eric\source\repos\Eaze_API\Eaze_API\obj\Debug\netcoreapp2.0\Eaze_API.AssemblyInfo.cs
+c:\users\eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Eaze_API.pdb
+c:\users\eric\source\repos\Eaze_API\Eaze_API\obj\Debug\netcoreapp2.0\Eaze_API.dll
+c:\users\eric\source\repos\Eaze_API\Eaze_API\obj\Debug\netcoreapp2.0\Eaze_API.pdb
+C:\Users\Eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Eric\source\repos\Eaze_API\Eaze_API\bin\Debug\netcoreapp2.0\Eaze_API.xml
